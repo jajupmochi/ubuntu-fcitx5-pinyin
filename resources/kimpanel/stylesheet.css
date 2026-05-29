@@ -1,0 +1,63 @@
+/* Kimpanel theme — warm off-white card + clean crimson pill, drawn running-dog loader.
+   Font SIZE is controlled by the extension's 'font' gsetting (inline, wins over CSS). */
+
+.popup-menu-boxpointer.kimpanel-popup-boxpointer {
+  -arrow-background-color: #f6f2ec;
+  -arrow-border-color: #e4ded6;
+  -arrow-border-width: 1px;
+  -arrow-border-radius: 13px;
+  -arrow-rise: 0;
+}
+
+/* tighter white border around the candidates */
+.popup-menu-content.kimpanel-popup-content {
+  background-color: #f6f2ec;
+  border: 1px solid #e4ded6;
+  border-radius: 12px;
+  padding: 1px 2px;
+  color: #33312e;
+}
+
+.kimpanel-label {
+  font-weight: normal;
+  color: #33312e;
+  padding: 0.26em 0.46em;
+}
+
+/* candidate pill — minimal white margin around the highlight */
+.kimpanel-candidate-item {
+  border-radius: 8px;
+  padding: 0.1em 0.46em;
+  margin: 0;
+  transition-duration: 0ms;
+}
+
+.kimpanel-candidate-item:hover {
+  background-color: rgba(215, 38, 61, 0.12);
+}
+
+.kimpanel-popup-content .kimpanel-candidate-item:active {
+  background-color: #d7263d;
+  color: #ffffff;
+}
+
+/* 咪咪 running dog — 8-frame gallop (v2), driven by a 75ms GLib timer in panel.js.
+   Source PNG 160x120 (2x HiDPI master); displayed 44x32 (4:3). */
+.kimpanel-dog {
+  width: 44px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.kimpanel-dog-0 { background-image: url("dog/d0.png"); }
+.kimpanel-dog-1 { background-image: url("dog/d1.png"); }
+.kimpanel-dog-2 { background-image: url("dog/d2.png"); }
+.kimpanel-dog-3 { background-image: url("dog/d3.png"); }
+.kimpanel-dog-4 { background-image: url("dog/d4.png"); }
+.kimpanel-dog-5 { background-image: url("dog/d5.png"); }
+.kimpanel-dog-6 { background-image: url("dog/d6.png"); }
+.kimpanel-dog-7 { background-image: url("dog/d7.png"); }
+
+.minwidth-zero { min-width: 0; }
+.icon-disable { color: rgba(150, 150, 150, 0.5); }
