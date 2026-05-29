@@ -1,6 +1,8 @@
 # Ubuntu 上把搜狗换成 fcitx5：云拼音、模糊音，外加一只跑动的狗
 
-作者：jajupmochi（人类） × Claude Code（Opus 4.7）
+[![License: GPL v2](https://img.shields.io/badge/License-GPLv2-blue.svg)](LICENSE) ![Ubuntu 24.04](https://img.shields.io/badge/Ubuntu-24.04-E95420?logo=ubuntu&logoColor=white) ![GNOME Wayland](https://img.shields.io/badge/GNOME-Wayland-4A86CF?logo=gnome&logoColor=white) ![fcitx5](https://img.shields.io/badge/fcitx5-pinyin-success) [![Stars](https://img.shields.io/github/stars/jajupmochi/ubuntu-fcitx5-pinyin?logo=github)](https://github.com/jajupmochi/ubuntu-fcitx5-pinyin/stargazers)
+
+作者：贾林林（人类） × Claude Code（Opus 4.7）
 语言 / Language：**中文** · [English](README.en.md)
 
 > 说明：这套配置是本文的人类作者（这时在伯尔尼大学工作）和 Claude（Claude Code，模型 Opus 4.7）一起做的。下文为了分清谁干了什么，**「作者」指人类**（拍板需求、定审美、踩坑判断），**「Claude」指 AI**（动手配置、写代码、画图）。
@@ -529,7 +531,7 @@ resources/
 ## 许可与致谢
 
 - `resources/kimpanel/panel.js`、`resources/kimpanel/stylesheet.css` 改自 [kimpanel GNOME 扩展](https://github.com/wengxt/gnome-shell-extension-kimpanel)（© Xuetian Weng 及贡献者，GPL-2.0）；本仓库含这部分，故整体以 **GPL-2.0** 分发（见 [`LICENSE`](LICENSE)）。
-- 咪咪的图与设计包（`resources/kimpanel/dog/*.png`、`resources/dog-design.zip`）及本教程文字，作者额外以 **CC-BY-4.0** 提供（署名 Linlin Jia）。
+- 咪咪的图与设计包（`resources/kimpanel/dog/*.png`、`resources/dog-design.zip`）及本教程文字，作者额外以 **CC-BY-4.0** 提供（署名 贾林林）。
 - `resources/fcitx5/` 下的配置片段：随意取用（CC0）。
 - 霞鹜文楷字体未随包，见上方链接（SIL OFL）。
 - 致谢：kimpanel、fcitx5、霞鹜文楷、伯尔尼大学品牌色板。咪咪由 Claude Code（代码初稿）+ Claude（精修定稿）绘制。

@@ -1,5 +1,7 @@
 # Replacing Sogou with fcitx5 on Ubuntu: cloud pinyin, fuzzy pinyin, and a running dog
 
+[![License: GPL v2](https://img.shields.io/badge/License-GPLv2-blue.svg)](LICENSE) ![Ubuntu 24.04](https://img.shields.io/badge/Ubuntu-24.04-E95420?logo=ubuntu&logoColor=white) ![GNOME Wayland](https://img.shields.io/badge/GNOME-Wayland-4A86CF?logo=gnome&logoColor=white) ![fcitx5](https://img.shields.io/badge/fcitx5-pinyin-success) [![Stars](https://img.shields.io/github/stars/jajupmochi/ubuntu-fcitx5-pinyin?logo=github)](https://github.com/jajupmochi/ubuntu-fcitx5-pinyin/stargazers)
+
 Author: jajupmochi (human) × Claude Code (Opus 4.7)
 语言 / Language: [中文](README.md) · **English**
 
